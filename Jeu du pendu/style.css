@@ -1,0 +1,93 @@
+/*Reset*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Contenants principaux*/
+
+/*Body*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Wrap*/
+#wrap {
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	margin-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #333333;	
+}
+
+/*Header*/
+header{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	padding-top: 27px;
+	padding-bottom: 10px;
+}
+
+section {
+	height: 200px;
+	text-align: center;
+}
+
+#enregistrement {
+	color: #777777;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#zoneMot {
+	background-color: #cd82ff;
+	font-size: 40px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+#recherche {
+	text-align: center;
+}
+
+input {
+	font-size: 32px;
+}
+
+button {
+	font-size: 28px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+table {
+	margin:auto;
+}
+
+td {
+	font-size: 40px;
+	width: 40px;
+}
+
+
+#listeIncorrecte {
+	text-align: center;
+	margin: 20px 0 20px 0;
+	height: 40px;
+}
+
+#pendu {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#btnNouvJeu {
+	font-size: 20px;
+}

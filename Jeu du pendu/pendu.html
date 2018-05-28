@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	     <meta charset="utf-8"/>
+	     <link rel="stylesheet" href="style.css"/>
+	     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	     <title>Jeu du pendu</title>
+	</head>
+	 
+	<body>
+		<div id="wrap">
+			<header>
+				<h1 id ="titre">Jeu du pendu</h1> 
+				<p>Devinez le mot mystère</p>
+			</header>
+
+			<section >
+				<div id="enregistrement"></div>
+
+				<div>
+					<p id="zoneMot"></p>
+				</div>
+
+				<div id="recherche"> 
+					<input id="champrecherche" type="text" name="recherche" placeholder="Proposez une lettre" autofocus></input>
+					<button id="btnValid">Valider</button>
+				</div>
+				
+				<div id="listeIncorrecte"></div>
+
+				<div id="pendu">
+					<img id="imagePendu" src="pendu0.png" alt="pendu"/>
+				</div>
+
+				<div id="changJeu"> 
+					<button id="btnNouvJeu">Nouveau jeu</button>
+				</div>
+
+			</section> 
+		</div>
+
+		<script type="text/javascript" src="pendu.js"></script>
+	</body>
+</html> 
